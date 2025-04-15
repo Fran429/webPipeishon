@@ -26,6 +26,9 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
 }
+#efecto-logo:hover{
+    size: 
+}
 
 .container {
     width: 90%;
@@ -82,6 +85,9 @@ h1, h2, h3, .navbar .logo p {
 .logo img {
     height: 50px;
     margin-right: 10px;
+}
+.logo img:hover{
+    size: 70px;
 }
 
 .nav-links {

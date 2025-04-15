@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pipeishon One - Consola Retro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Pipeishon Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#equipo">Equipo</a></li>
+                <li><a href="#versiones">Versiones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección de inicio con carrusel principal -->
+    <section id="inicio" class="hero-section">
+        <div class="carousel-container">
+            <div class="carousel-track">
+                <!-- Las imágenes se agregarán dinámicamente con JavaScript -->
+                <div class="carousel-slide">
+                    <img src="placeholder1.jpg" alt="Pipeishon One Consola">
+                    <div class="slide-caption">
+                        <h2>Pipeishon One</h2>
+                        <p>Nuestra consola retro basada en Arduino Mega con pantalla TFT de 2.4 pulgadas.</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="placeholder2.jpg" alt="Controles Pipeishon">
+                    <div class="slide-caption">
+                        <h2>Controles Retro</h2>
+                        <p>Botones y palanca estilo arcade para una experiencia de juego auténtica.</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="placeholder3.jpg" alt="Juegos Pipeishon">
+                    <div class="slide-caption">
+                        <h2>Juegos Clásicos</h2>
+                        <p>Revive la nostalgia con juegos clásicos en nuestra consola personalizada.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-dots"></div>
+        </div>
+    </section>
+
+    <!-- Sección de historia -->
+    <section id="historia" class="historia-section">
+        <div class="container">
+            <h2 class="section-title">Nuestra Historia</h2>
+            <div class="historia-content">
+                <div class="historia-text">
+                    <p>Pipeishon nació de la pasión por los videojuegos retro y la electrónica. Todo comenzó cuando dos amigos decidimos combinar nuestra pasion por la programación y el diseño para crear algo único.</p>
+                    <p>Inspirados por las consolas clásicas de Nintendo, decidimos construir nuestra propia versión utilizando un Arduino Mega y una pantalla TFT de 2.4 pulgadas. Después de varias semanas de trabajo, prototipos y pruebas, nació la Pipeishon One.</p>
+                    <p>Lo que comenzó como un proyecto entre amigos pronto se convirtió en un equipo más grande, con desarrolladores, especialistas en marketing y testers que comparten nuestra visión.</p>
+                </div>
+                <div class="historia-image">
+                    <img src="placeholder-historia.jpg" alt="Foto del Proceso de fabricación de Pipeishon One">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de equipo con carrusel de tarjetas -->
+    <section id="equipo" class="equipo-section">
+        <div class="container">
+            <h2 class="section-title">Nuestro Equipo</h2>
+            <div class="team-carousel-container">
+                <button class="team-carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="team-carousel">
+                    <div class="team-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="placeholder-member1.jpg" alt="Miembro 1">
+                                <h3>Francisco Sammauro</h3>
+                            </div>
+                            <div class="card-back">
+                                <h3>Francisco Sammauro</h3>
+                                <p>Fundador & Desarrollador</p>
+                                <p>Programadorencargado del Desarrollo y el mantenimiento del sitio web del Arduino.</p>
+                                <a href="https://www.instagram.com/frann_sammauro/" target="_blank" class="social-link">
+                                    <i class="fab fa-instagram"></i> @frann_sammauro
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="placeholder-member2.jpg" alt="Miembro 2">
+                                <h3>Christian Ibarra</h3>
+                            </div>
+                            <div class="card-back">
+                                <h3>Christian ibarra</h3>
+                                <p>Co-Fundador & Programador</p>
+                                <p>Responsable de la arquitectura del sistema y programación del Arduino.</p>
+                                <a href="https://instagram.com/usuario2" target="_blank" class="social-link">
+                                    <i class="fab fa-instagram"></i> @notienexd
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="placeholder-member3.jpg" alt="Miembro 3">
+                                <h3>Bianca Burruchaga</h3>
+                            </div>
+                            <div class="card-back">
+                                <h3>Bianca Burruchaga</h3>
+                                <p>Marketing</p>
+                                <p>Responsable de la estrategia de redes sociales y promoción.</p>
+                                <a href="https://www.instagram.com/la_burru/" target="_blank" class="social-link">
+                                    <i class="fab fa-instagram"></i> @la_burru
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="placeholder-member4.jpg" alt="Miembro 4">
+                                <h3>Sebastian Rojas</h3>
+                            </div>
+                            <div class="card-back">
+                                <h3>Sebastian Rojas</h3>
+                                <p>Tester</p>
+                                <p>Encargado de probar los juegos y la funcionalidad de la consola.</p>
+                                <a href="https://www.instagram.com/rojassebas_14/" target="_blank" class="social-link">
+                                    <i class="fab fa-instagram"></i> @rojassebas_14
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="placeholder-member5.jpg" alt="Miembro 5">
+                                <h3>Agustin Stupia</h3>
+                            </div>
+                            <div class="card-back">
+                                <h3>Agustin Stupia</h3>
+                                <p>Desarrollador</p>
+                                <p>Programador de juegos y funcionalidades adicionales.</p>
+                                <a href="https://www.instagram.com/agus.stupia/" target="_blank" class="social-link">
+                                    <i class="fab fa-instagram"></i> @agus.stupia
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <img src="placeholder-member5.jpg" alt="Miembro 5">
+                                <h3>Dilan Alfaro</h3>
+                            </div>
+                            <div class="card-back">
+                                <h3>Dilan Alfaro</h3>
+                                <p>Marketing</p>
+                                <p>Responsable de la estrategia de redes sociales y promoción.</p>
+                                <a href="https://www.instagram.com/rayito.speed3282/" target="_blank" class="social-link">
+                                    <i class="fab fa-instagram"></i> @rayito.speed3282
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="team-carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de versiones -->
+    <section id="versiones" class="versiones-section">
+        <div class="container">
+            <h2 class="section-title">Historial de Versiones</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Abril 2025</div>
+                    <div class="timeline-content">
+                        <h3>Versión 1.0</h3>
+                        <p>Lanzamiento inicial de Pipeishon One con soporte para 2 juegos clásicos.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Marzo 2025</div>
+                    <div class="timeline-content">
+                        <h3>Beta 0.9</h3>
+                        <p>Mejoras en la interfaz de usuario y optimización del rendimiento.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Febrero 2025</div>
+                    <div class="timeline-content">
+                        <h3>Alpha 0.5</h3>
+                        <p>Primer prototipo funcional con controles básicos y pantalla.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="add-version">
+                <p>¡Pronto más actualizaciones!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto" class="contacto-section">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contacto-content">
+                <div class="contacto-info">
+                    <div class="contacto-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>pipeishonone@gmail.com</p>
+                    </div>
+                    <div class="contacto-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <p>+54 11 25068477</p>
+                    </div>
+                    <div class="contacto-item">
+                        <i class="fab fa-instagram"></i>
+                        <p><a href="https://www.instagram.com/pipeishonone.oficial/" target="_blank">@pipeishonone.oficial</a></p>
+                    </div>
+                </div>
+                <div class="contacto-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="Pipeishon Logo">
+                    <p>Pipeishon One</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#historia">Historia</a></li>
+                        <li><a href="#equipo">Equipo</a></li>
+                        <li><a href="#versiones">Versiones</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/pipeishonone.oficial/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="mailto:pipeishonone@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="https://wa.me/5491125068477" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pipeishon One. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
